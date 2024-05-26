@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+# get path info
+SCRIPT_PATH=$(realpath "$0")
+SCRIPT_DIR=$(dirname "${SCRIPT_PATH}")
+PROJECT_DIR=$(dirname "${SCRIPT_DIR}")
+
+mpic++ "${PROJECT_DIR}/main.cpp" -o "${PROJECT_DIR}/bin/mpi"

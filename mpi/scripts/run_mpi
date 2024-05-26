@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# get cmd args
+PROCS=$1
+PARTS=$2
+TYPE=$3
+
+# get path info
+SCRIPT_PATH=$(realpath "$0")
+SCRIPT_DIR=$(dirname "${SCRIPT_PATH}")
+PROJECT_DIR=$(dirname "${SCRIPT_DIR}")
+
+# check for "TYPE"
+source "${SCRIPT_DIR}/check_profile_type"
+check_profile_type "${TYPE}"
+
+# compile sources
+"${SCRIPT_DIR}/compile_mpi"
+
+if [[ "${TYPE}" == "client" ]]; then
+  mpiexec --hostfile "${SCRIPT_DIR}/hostfile" -np "${PROCS}" "${PROJECT_DIR}/bin/mpi" "${PARTS}" "${PROJECT_DIR}/out"
+elif [[ "${TYPE}" == "cluster" ]]; then
+  sbatch -n "${PROCS}" "${SCRIPT_DIR}/run_sbatch_config" "${PARTS}" "${PROJECT_DIR}/out" "${PROJECT_DIR}"
+fi

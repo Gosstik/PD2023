@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+
+# get cmd args
+TYPE=$1
+
+# get path info
+SCRIPT_PATH=$(realpath "$0")
+SCRIPT_DIR=$(dirname "${SCRIPT_PATH}")
+PROJECT_DIR=$(dirname "${SCRIPT_DIR}")
+
+# check for "TYPE"
+source "${SCRIPT_DIR}/check_profile_type"
+check_profile_type "${TYPE}"
+
+# compile sources
+"${SCRIPT_DIR}/compile_mpi"
+
+# clear output files
+printf "procs_count;parts_count;acceleration\n" > "${PROJECT_DIR}/out/acceleration.csv"
+echo "" > "${PROJECT_DIR}/out/integrals.txt"
+
+# run profiling
+for procs in {1..8}
+do
+  for parts in 1000 1000000 100000000
+  do
+    echo "running mpi: ${procs} proc(s), ${parts} parts"
+    source "${SCRIPT_DIR}/run_mpi" "${procs}" "${parts}" "${TYPE}"
+  done
+done

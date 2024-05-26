@@ -1,0 +1,3 @@
+/home/ownstreamer/proga/ParallelAndDistributingComputing/mpi/build/CMakeFiles/mpi.dir
+/home/ownstreamer/proga/ParallelAndDistributingComputing/mpi/build/CMakeFiles/edit_cache.dir
+/home/ownstreamer/proga/ParallelAndDistributingComputing/mpi/build/CMakeFiles/rebuild_cache.dir

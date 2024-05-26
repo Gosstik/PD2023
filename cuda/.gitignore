@@ -1,0 +1,9 @@
+**cmake-build**
+**bin**
+**lib**
+*.o
+**build**
+**local_tests**
+**scripts**
+path_to_server.txt
+**.tmp**

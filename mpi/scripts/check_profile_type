@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+function check_profile_type() {
+  PROFILE_TYPE=$1
+  if [[ "${PROFILE_TYPE}" != "client" ]] && [[ "${PROFILE_TYPE}" != "cluster" ]]; then
+    echo "incorrect type: ${PROFILE_TYPE}"
+    echo "possible types: \"client\", \"cluster\""
+    exit 1
+  fi
+}

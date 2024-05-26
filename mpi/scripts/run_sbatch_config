@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#
+#SBATCH --cpus-per-task=1
+#SBATCH --job-name=mpi_integral_task
+#SBATCH --output=/home/common/KAiTP/pd024/solution/out/out.txt
+#SBATCH --error=/home/common/KAiTP/pd024/solution/out/error.txt
+
+# get cmd args
+PARTS=$1
+OUT_DIR=$2
+PROJECT_DIR=$3
+
+mpiexec "${PROJECT_DIR}/bin/mpi" "${PARTS}" "${OUT_DIR}"

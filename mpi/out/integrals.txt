@@ -1,0 +1,205 @@
+
+value from proc #0: 3.14259
+---------------------------------------------
+value of the integral (all procs): 3.14259
+value of the integral (only 0 proc): 3.14259
+values differs by 0
+value from proc #0: 3.14159
+---------------------------------------------
+value of the integral (all procs): 3.14159
+value of the integral (only 0 proc): 3.14159
+values differs by 0
+value from proc #0: 3.14159
+---------------------------------------------
+value of the integral (all procs): 3.14159
+value of the integral (only 0 proc): 3.14159
+values differs by 0
+value from proc #0: 1.85499
+value from proc #1: 1.2876
+---------------------------------------------
+value of the integral (all procs): 3.14259
+value of the integral (only 0 proc): 3.14259
+values differs by 3.9968e-15
+value from proc #0: 1.85459
+value from proc #1: 1.287
+---------------------------------------------
+value of the integral (all procs): 3.14159
+value of the integral (only 0 proc): 3.14159
+values differs by 7.75069e-12
+value from proc #0: 1.85459
+value from proc #1: 1.287
+---------------------------------------------
+value of the integral (all procs): 3.14159
+value of the integral (only 0 proc): 3.14159
+values differs by 2.66136e-10
+value from proc #0: 1.286
+value from proc #1: 1.06478
+value from proc #2: 0.791814
+---------------------------------------------
+value of the integral (all procs): 3.14259
+value of the integral (only 0 proc): 3.14259
+values differs by 4.88498e-15
+value from proc #0: 1.287
+value from proc #1: 1.06501
+value from proc #2: 0.789584
+---------------------------------------------
+value of the integral (all procs): 3.14159
+value of the integral (only 0 proc): 3.14159
+values differs by 2.88747e-12
+value from proc #0: 1.287
+value from proc #1: 1.06501
+value from proc #2: 0.789582
+---------------------------------------------
+value of the integral (all procs): 3.14159
+value of the integral (only 0 proc): 3.14159
+values differs by 3.60873e-10
+value from proc #0: 0.980032
+value from proc #1: 0.874958
+value from proc #2: 0.719734
+value from proc #3: 0.567868
+---------------------------------------------
+value of the integral (all procs): 3.14259
+value of the integral (only 0 proc): 3.14259
+values differs by 4.88498e-15
+value from proc #0: 0.979915
+value from proc #1: 0.874676
+value from proc #2: 0.719414
+value from proc #3: 0.567588
+---------------------------------------------
+value of the integral (all procs): 3.14159
+value of the integral (only 0 proc): 3.14159
+values differs by 3.55893e-12
+value from proc #0: 0.979915
+value from proc #1: 0.874676
+value from proc #2: 0.719414
+value from proc #3: 0.567588
+---------------------------------------------
+value of the integral (all procs): 3.14159
+value of the integral (only 0 proc): 3.14159
+values differs by 3.84651e-10
+value from proc #0: 0.789659
+value from proc #1: 0.732642
+value from proc #2: 0.639906
+value from proc #3: 0.537537
+value from proc #4: 0.442848
+---------------------------------------------
+value of the integral (all procs): 3.14259
+value of the integral (only 0 proc): 3.14259
+values differs by 5.77316e-15
+value from proc #0: 0.789582
+value from proc #1: 0.732443
+value from proc #2: 0.639653
+value from proc #3: 0.537286
+value from proc #4: 0.442629
+---------------------------------------------
+value of the integral (all procs): 3.14159
+value of the integral (only 0 proc): 3.14159
+values differs by 2.64722e-12
+value from proc #0: 0.789582
+value from proc #1: 0.732443
+value from proc #2: 0.639652
+value from proc #3: 0.537286
+value from proc #4: 0.442629
+---------------------------------------------
+value of the integral (all procs): 3.14159
+value of the integral (only 0 proc): 3.14159
+values differs by 5.92443e-10
+value from proc #0: 0.658053
+value from proc #1: 0.624345
+value from proc #2: 0.569389
+value from proc #3: 0.49899
+value from proc #4: 0.428207
+value from proc #5: 0.363607
+---------------------------------------------
+value of the integral (all procs): 3.14259
+value of the integral (only 0 proc): 3.14259
+values differs by 5.77316e-15
+value from proc #0: 0.660592
+value from proc #1: 0.626405
+value from proc #2: 0.56759
+value from proc #3: 0.497422
+value from proc #4: 0.426944
+value from proc #5: 0.362641
+---------------------------------------------
+value of the integral (all procs): 3.14159
+value of the integral (only 0 proc): 3.14159
+values differs by 3.0389e-12
+value from proc #0: 0.660595
+value from proc #1: 0.626407
+value from proc #2: 0.567588
+value from proc #3: 0.49742
+value from proc #4: 0.426943
+value from proc #5: 0.36264
+---------------------------------------------
+value of the integral (all procs): 3.14159
+value of the integral (only 0 proc): 3.14159
+values differs by 6.11139e-10
+value from proc #0: 0.564267
+value from proc #1: 0.546439
+value from proc #2: 0.507238
+value from proc #3: 0.457838
+value from proc #4: 0.405133
+value from proc #5: 0.354106
+value from proc #6: 0.30757
+---------------------------------------------
+value of the integral (all procs): 3.14259
+value of the integral (only 0 proc): 3.14259
+values differs by 5.32907e-15
+value from proc #0: 0.567588
+value from proc #1: 0.54561
+value from proc #2: 0.506368
+value from proc #3: 0.457017
+value from proc #4: 0.404414
+value from proc #5: 0.353507
+value from proc #6: 0.30709
+---------------------------------------------
+value of the integral (all procs): 3.14159
+value of the integral (only 0 proc): 3.14159
+values differs by 2.36033e-12
+value from proc #0: 0.567588
+value from proc #1: 0.54561
+value from proc #2: 0.506369
+value from proc #3: 0.457017
+value from proc #4: 0.404413
+value from proc #5: 0.353507
+value from proc #6: 0.307088
+---------------------------------------------
+value of the integral (all procs): 3.14159
+value of the integral (only 0 proc): 3.14159
+values differs by 7.13187e-10
+value from proc #0: 0.497451
+value from proc #1: 0.482581
+value from proc #2: 0.455297
+value from proc #3: 0.419661
+value from proc #4: 0.379969
+value from proc #5: 0.339765
+value from proc #6: 0.301463
+value from proc #7: 0.266405
+---------------------------------------------
+value of the integral (all procs): 3.14259
+value of the integral (only 0 proc): 3.14259
+values differs by 4.88498e-15
+value from proc #0: 0.49742
+value from proc #1: 0.482495
+value from proc #2: 0.455168
+value from proc #3: 0.419508
+value from proc #4: 0.379807
+value from proc #5: 0.339607
+value from proc #6: 0.301316
+value from proc #7: 0.266273
+---------------------------------------------
+value of the integral (all procs): 3.14159
+value of the integral (only 0 proc): 3.14159
+values differs by 2.45315e-12
+value from proc #0: 0.49742
+value from proc #1: 0.482495
+value from proc #2: 0.455168
+value from proc #3: 0.419508
+value from proc #4: 0.379807
+value from proc #5: 0.339607
+value from proc #6: 0.301316
+value from proc #7: 0.266273
+---------------------------------------------
+value of the integral (all procs): 3.14159
+value of the integral (only 0 proc): 3.14159
+values differs by 7.25568e-10

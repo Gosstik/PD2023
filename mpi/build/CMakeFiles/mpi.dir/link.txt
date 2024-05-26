@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/mpi.dir/main.c.o -o ../bin/mpi  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 
